@@ -73,6 +73,31 @@
         a:hover {
             background-color: white;
         }
+
+        .city-nav {
+            text-align: center;
+            margin: 20px auto;
+            margin-top: 0px;
+            padding: 5px;
+            max-width: 95%;
+            flex-wrap: wrap;
+            display: flex;
+            justify-content: center;
+            gap: 6px;
+            background: rgba(255, 255, 255, 0.75);
+            border-radius: 10px;
+        }
+
+        .city-nav a {
+            font-family: 'Qwigley', sans-serif;
+            background-color: white;
+            color: black;
+            padding: 8px 14px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+            font-size: 25px;
+        }
     </style>
 
 </head>
@@ -80,8 +105,20 @@
 <body>
 
     <h1 style="text-align:center;font-size: 60px;font-family:'Qwigley',palatino linotype; ">
-        <b>China</b>
+        <b id="top">China</b>
     </h1>
+    <p style="font-size: 15px;text-align: center;color:black;margin-bottom: 0;">Easier Way to Travel to Each City</p>
+    <div class="city-nav">
+        <a href="#Beijing">Beijing</a>
+        <a href="#Shanghai">Shanghai</a>
+        <a href="#Guangzhou">Guangzhou</a>
+        <a href="#Shenzhen">Shenzhen</a>
+        <a href="#Guilin">Guilin</a>
+        <a href="#Lhasa">Lhasa</a>
+        <a href="#Sanya">Sanya</a>
+        <a href="#bottom">Go to Bottom</a>
+
+    </div>
 
 
     <h2
@@ -95,7 +132,7 @@
             Sanya</i>.</p>
 
     <!-- About Beijing -->
-    <div>
+    <div id="Beijing">
         <div class="a">
             <h3
                 style="background: rgba(255, 255, 255, 0.822); padding: 10px 20px; border-radius: 6px; max-width: 130px; margin-left: 60px; box-sizing: border-box;">
@@ -119,13 +156,13 @@
         <a href="https://www.travelchinaguide.com/cityguides/beijing.htm?srsltid=AfmBOophsvCaJewxcKiAjROg4sXTgLfi88JeSnhZprMTOiAnG0sSr4rd"
             style="background-color:transparent;" target="_blank">
             <img src="https://media.istockphoto.com/id/482334184/photo/night-on-beijing-central-business-district-buildings-skyline-china-cityscape.jpg?s=612x612&w=0&k=20&c=gd1nunX5dLfHTAyyqTE2frn4Iw-dzyr60YqJGaK2M4U="
-                alt="Beijing" width="340" height="190" style="padding-left:60px;">
+                alt="Beijing" width="340" height="190" style="margin-left:60px;border:6px solid white;">
         </a>
     </div>
 
 
     <!--About Shanghai-->
-    <div>
+    <div id="Shanghai">
         <div class="a">
             <h3
                 style="background: rgba(255, 255, 255, 0.822); padding: 10px 20px; border-radius: 6px; max-width: 140px; margin-left: 60px; box-sizing: border-box;">
@@ -148,12 +185,12 @@
         <a href="https://www.travelchinaguide.com/cityguides/shanghai.htm?srsltid=AfmBOoqbabJZGuewVT97CgLX1Kpm7xhOt7TUaNEmSXcxwB92Vn1sMw6g"
             style="background-color:transparent;" target="_blank">
             <img src="https://media.odynovotours.com/article/75000/shanghai-city-view_74339.jpg" alt="Shanghai"
-                width="330" height="200" style="padding-left:60px;">
+                width="330" height="200" style="margin-left:60px;border:6px solid white;">
         </a>
     </div>
 
     <!--About Guangzhou-->
-    <div>
+    <div id="Guangzhou">
         <div class="a">
             <h3
                 style="background: rgba(255, 255, 255, 0.822); padding: 10px 20px; border-radius: 6px; max-width: 160px; margin-left: 60px; box-sizing: border-box;">
@@ -176,12 +213,12 @@
         <a href="https://www.travelchinaguide.com/cityguides/guangzhou.htm?srsltid=AfmBOopkZTPCY5jT8wOCKHtXftyVtzY7XIz1C56rw69hx4S9AAkcXQrT"
             style="background-color:transparent;" target="_blank">
             <img src="https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcSPYNywgn1-qJdJ-PqrOixC7451IpIpgc2vKrsT7UrilYCHytzAz0WalipCUjqvfkTED8470-mmV1smTTcd4p9iWI3cq6g-OYnCWvUrrA"
-                alt="Guangzhou" width="330" height="200" style="padding-left:60px;">
+                alt="Guangzhou" width="330" height="200" style="margin-left:60px;border:6px solid white;">
         </a>
     </div>
 
     <!--About Shenzhen-->
-    <div>
+    <div id="Shenzhen">
         <div class="a">
             <h3
                 style="background: rgba(255, 255, 255, 0.822); padding: 10px 20px; border-radius: 6px; max-width: 150px; margin-left: 60px; box-sizing:border-box;">
@@ -206,12 +243,12 @@
         <a href="https://www.travelchinaguide.com/cityguides/guangdong/shenzhen/?srsltid=AfmBOoqOGrzHJ6nlJqxWXwYb0jIppV8x-EmIitt4eh56WlO5CcTo_02a"
             style="background-color:transparent;" target="_blank">
             <img src="https://media.cnn.com/api/v1/images/stellar/prod/200506111348-07-shenzhen-effect-restricted.jpg?q=w_1110,c_fill"
-                alt="shenzhen" width="350" height="210" style="padding-left:60px;">
+                alt="shenzhen" width="350" height="210" style="margin-left:60px;border:6px solid white;">
         </a>
     </div>
 
     <!--About Chengdu-->
-    <div>
+    <div id="Chengdu">
         <div class="a">
             <h3
                 style="background: rgba(255, 255, 255, 0.822); padding: 10px 20px; border-radius: 6px; max-width: 140px; margin-left: 60px; box-sizing:border-box;">
@@ -235,12 +272,12 @@
         <a href="https://www.travelchinaguide.com/cityguides/chengdu.htm?srsltid=AfmBOopwvKqV2qhskd98WcasqvKpZiDfxkkeJw9gmtLMPB3qU9-VuCKY"
             style="background-color:transparent;" target="_blank">
             <img src="https://media.cnn.com/api/v1/images/stellar/prod/211213134659-01-chengdu-china-guide.jpg?q=h_1800,w_2700,x_0,y_0"
-                alt="Chengdu" width="350" height="200" style="padding-left:60px;">
+                alt="Chengdu" width="350" height="200" style="margin-left:60px;border:6px solid white;">
         </a>
     </div>
 
     <!--About Guilin-->
-    <div>
+    <div id="Guilin">
         <div class="a">
             <h3
                 style="background: rgba(255, 255, 255, 0.822); padding: 10px 20px; border-radius: 6px; max-width: 130px; margin-left: 60px; box-sizing:border-box;">
@@ -265,12 +302,12 @@
         <a href="https://www.travelchinaguide.com/cityguides/guilin.htm?srsltid=AfmBOopDiFdyL-SInwQZGWrRw9Akn-FQ4F1lQ13Fv4sT0j_nvTVYXd-m"
             style="background-color:transparent;" target="_blank">
             <img src="https://iugs-geoheritage.org/wp-content/uploads/2024/07/190-1-Guilin-Karst.jpg" alt="Guilin"
-                width="350" height="200" style="padding-left:60px;">
+                width="350" height="200" style="margin-left:60px;border:6px solid white;">
         </a>
     </div>
 
     <!--About Lhasa-->
-    <div>
+    <div id="Lhasa">
         <div class="a">
             <h3
                 style="background: rgba(255, 255, 255, 0.822); padding: 10px 20px; border-radius: 6px; max-width: 120px; margin-left: 60px; box-sizing:border-box;">
@@ -294,12 +331,12 @@
         <a href="https://www.travelchinaguide.com/cityguides/tibet/lhasa/?srsltid=AfmBOorEDFwbTQx23m4vQbMY8r_n75RBJnOg5FSLHbK_mNYh0Ql023C4"
             style="background-color:transparent;" target="_blank">
             <img src="https://cdn.britannica.com/32/123332-050-F6718344/Potala-Palace-Lhasa-China-Tibet-Autonomous-Region.jpg"
-                alt="Lhasa" width="350" height="200" style="padding-left:60px;">
+                alt="Lhasa" width="350" height="200" style="margin-left:60px;border:6px solid white;">
         </a>
     </div>
 
     <!--About Sanya-->
-    <div>
+    <div id="Sanya">
         <div class="a">
             <h3
                 style="background: rgba(255, 255, 255, 0.822); padding: 10px 20px; border-radius: 6px; max-width: 120px; margin-left: 60px; box-sizing:border-box;">
@@ -323,7 +360,7 @@
         <a href="https://www.travelchinaguide.com/cityguides/hainan/sanya/?srsltid=AfmBOoqJrvaEZGQvCPQkaNZ4RMdckovdPFPGIyoZgA51WKoQQuFTZCXL"
             style="background-color:transparent;" target="_blank">
             <img src="https://news.cgtn.com/news/2022-12-17/Live-Enjoy-stunning-view-of-Sanya-Bay-as-Hainan-film-festival-begins-1fPDePKweWY/img/c6444a7b406e4f088905b7829a9a34f4/c6444a7b406e4f088905b7829a9a34f4.png"
-                alt="Sanya" width="350" height="200" style="padding-left:60px;">
+                alt="Sanya" width="350" height="200" style="margin-left:60px;border:6px solid white;">
         </a>
     </div>
 
@@ -337,7 +374,15 @@
     </div>
     <br>
 
-    <div class="center-links">
+     <div class="center-links">
+        <a href="#top"
+            style="font-size:25px; color:black; font-family:'Qwigley',garamond;background: rgba(255, 255, 255, 0.822); padding: 10px 20px; border-radius: 6px; max-width: 440px; box-sizing:border-box;text-align: center;">
+            <b>Go to Top</b></a>
+    </div>
+
+    <br>
+
+    <div class="center-links" id="bottom">
         <a href="main.html"
             style="font-size:25px; color:black; font-family:'Qwigley',garamond;background: rgba(255, 255, 255, 0.822); padding: 10px 20px; border-radius: 6px; max-width: 440px; box-sizing:border-box;text-align: center;">
             <b>Return to Home Page</b></a>

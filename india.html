@@ -69,6 +69,31 @@
         a:hover {
             background-color: white;
         }
+
+        .city-nav {
+            text-align: center;
+            margin: 20px auto;
+            margin-top: 0px;
+            padding: 5px;
+            max-width: 95%;
+            flex-wrap: wrap;
+            display: flex;
+            justify-content: center;
+            gap: 6px;
+            background: rgba(125, 118, 118, 0.841);
+            border-radius: 10px;
+        }
+
+        .city-nav a {
+            font-family: 'Kalam', sans-serif;
+            background-color: rgb(107, 104, 104);
+            color: rgb(255, 255, 255);
+            padding: 8px 14px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+            font-size: 15px;
+        }
     </style>
 
 </head>
@@ -76,20 +101,39 @@
 <body>
 
     <h1 style="text-align:center;font-size: 45px;font-family:'Kalam',palatino linotype; ">
-        <b>India</b>
+        <b id="top">India</b>
     </h1>
+
+    </h1>
+    <p style="font-size: 15px;text-align: center;color:rgb(255, 255, 255);margin-bottom: 0;">Easier Way to Travel to
+        Each City</p>
+    <div class="city-nav">
+        <a href="#Delhi">Delhi</a>
+        <a href="#Agra">Agra</a>
+        <a href="#Jaipur">Jaipur</a>
+        <a href="#Mumbai">Mumbai</a>
+        <a href="#Varanasi">Varanasi</a>
+        <a href="#Goa">Goa</a>
+        <a href="#Udaipur">Udaipur</a>
+        <a href="#Leh-Ladakh">Leh-Ladakh</a>
+        <a href="#bottom">Go to Bottom</a>
+
+
+    </div>
+
 
 
     <h2
         style="background: rgba(125, 118, 118, 0.841);padding: 2px 6px;border-radius: 6px;display: inline-block;box-sizing: border-box;">
-        <b>Popular Cities</b></h2>
+        <b>Popular Cities</b>
+    </h2>
     <br>
     <p
         style="background: rgba(125, 118, 118, 0.841);padding: 2px 6px;border-radius: 6px;display: inline-block;box-sizing: border-box;">
         Popular Cities in India include <i>Delhi, Agra, Jaipur, Mumbai, Varanasi, Goa, Udaipur, and Leh-Ladakh</i>.</p>
 
     <!-- About Delhi -->
-    <div>
+    <div id="Delhi">
         <div class="a">
             <h3
                 style="background: rgba(125, 118, 118, 0.841); padding: 10px 20px; border-radius: 6px; max-width: 130px; margin-left: 60px; box-sizing: border-box;">
@@ -111,12 +155,12 @@
         <a href="http://www.forbestravelguide.com/destinations/delhi-india/travel-guide"
             style="background-color:transparent;" target="_blank">
             <img src="https://cdn.enjoytravel.com/img/Big7Enjoy/en/travel-news/interesting-facts/facts-about-delhi/five_of_the_gates_of_dehli_are_still_standing.webp"
-                alt="Delhi" width="340" height="210" style="padding-left:60px;">
+                alt="Delhi" width="340" height="210" style="margin-left:60px;border:6px solid white;">
         </a>
     </div>
 
     <!-- About Agra -->
-    <div>
+    <div id="Agra">
         <div class="a">
             <h3
                 style="background: rgba(125, 118, 118, 0.841); padding: 10px 20px; border-radius: 6px; max-width: 130px; margin-left: 60px; box-sizing: border-box;">
@@ -124,20 +168,24 @@
         </div>
         <p
             style=" padding-left: 40px; margin: 0;background: rgba(125, 118, 118, 0.841); padding: 10px 20px; border-radius: 6px; max-width: 900px; margin-left: 60px; box-sizing: border-box;">
-            Agra, once the seat of the Mughal Empire, is best known as the home of the iconic Taj Mahal, a symbol of love and one of the New Seven Wonders of the World. Beyond the Taj, travelers can explore the grand Agra Fort, a UNESCO World Heritage Site, and the nearby Fatehpur Sikri, an abandoned Mughal city with stunning architecture. The city also offers bustling bazaars where visitors can shop for marble inlay work, handicrafts, and traditional sweets like petha. With its rich history and architectural marvels, Agra is an unmissable stop on India’s famous Golden Triangle.
+            Agra, once the seat of the Mughal Empire, is best known as the home of the iconic Taj Mahal, a symbol of
+            love and one of the New Seven Wonders of the World. Beyond the Taj, travelers can explore the grand Agra
+            Fort, a UNESCO World Heritage Site, and the nearby Fatehpur Sikri, an abandoned Mughal city with stunning
+            architecture. The city also offers bustling bazaars where visitors can shop for marble inlay work,
+            handicrafts, and traditional sweets like petha. With its rich history and architectural marvels, Agra is an
+            unmissable stop on India’s famous Golden Triangle.
         </p>
         <h4
             style="padding-left: 80px; margin-top: 10px; margin-bottom: 0;background: rgba(125, 118, 118, 0.841); padding: 10px 20px; border-radius: 6px; max-width: 340px; margin-left: 60px; box-sizing: border-box;">
             Click Image to Learn More About Agra!</h4>
-        <a href="https://soultravelindia.com/agra-travel-guide/"
-            style="background-color:transparent;" target="_blank">
+        <a href="https://soultravelindia.com/agra-travel-guide/" style="background-color:transparent;" target="_blank">
             <img src="https://imgcld.yatra.com/ytimages/image/upload/t_yt_blog_c_fill_q_auto:good_f_auto_w_800_h_500/v1534158986/AgraFort_1534158959.jpg"
-                alt="Agra" width="340" height="210" style="padding-left:60px;">
+                alt="Agra" width="340" height="210" style="margin-left:60px;border:6px solid white;">
         </a>
     </div>
 
     <!-- About Jaipur -->
-    <div>
+    <div id="Jaipur">
         <div class="a">
             <h3
                 style="background: rgba(125, 118, 118, 0.841); padding: 10px 20px; border-radius: 6px; max-width: 130px; margin-left: 60px; box-sizing: border-box;">
@@ -145,20 +193,24 @@
         </div>
         <p
             style=" padding-left: 40px; margin: 0;background: rgba(125, 118, 118, 0.841); padding: 10px 20px; border-radius: 6px; max-width: 900px; margin-left: 60px; box-sizing: border-box;">
-            Jaipur, famously called the Pink City, is a vibrant destination in Rajasthan known for its royal heritage and colorful architecture. Visitors can explore the majestic Amber Fort, the ornate City Palace, and the iconic Hawa Mahal with its intricate façade. The bustling bazaars offer traditional handicrafts, textiles, and jewelry, while the city’s rich culture is reflected in its festivals, cuisine, and historic streets. As part of India’s Golden Triangle, Jaipur perfectly combines history, culture, and a lively atmosphere, making it a must-visit for travelers seeking a regal experience.
+            Jaipur, famously called the Pink City, is a vibrant destination in Rajasthan known for its royal heritage
+            and colorful architecture. Visitors can explore the majestic Amber Fort, the ornate City Palace, and the
+            iconic Hawa Mahal with its intricate façade. The bustling bazaars offer traditional handicrafts, textiles,
+            and jewelry, while the city’s rich culture is reflected in its festivals, cuisine, and historic streets. As
+            part of India’s Golden Triangle, Jaipur perfectly combines history, culture, and a lively atmosphere, making
+            it a must-visit for travelers seeking a regal experience.
         </p>
         <h4
             style="padding-left: 80px; margin-top: 10px; margin-bottom: 0;background: rgba(125, 118, 118, 0.841); padding: 10px 20px; border-radius: 6px; max-width: 340px; margin-left: 60px; box-sizing: border-box;">
             Click Image to Learn More About Jaipur!</h4>
-        <a href="https://thirdeyetraveller.com/jaipur/"
-            style="background-color:transparent;" target="_blank">
+        <a href="https://thirdeyetraveller.com/jaipur/" style="background-color:transparent;" target="_blank">
             <img src="https://res.cloudinary.com/odysseytraveller/image/fetch/f_auto,q_auto,dpr_auto,r_4,w_765,h_612,c_limit/https://cdn.odysseytraveller.com/app/uploads/2020/02/Amber-Fort.jpg"
-                alt="Jaipur" width="340" height="210" style="padding-left:60px;">
+                alt="Jaipur" width="340" height="210" style="margin-left:60px;border:6px solid white;">
         </a>
     </div>
 
     <!-- About Mumbai -->
-    <div>
+    <div id="Mumbai">
         <div class="a">
             <h3
                 style="background: rgba(125, 118, 118, 0.841); padding: 10px 20px; border-radius: 6px; max-width: 145px; margin-left: 60px; box-sizing: border-box;">
@@ -166,20 +218,24 @@
         </div>
         <p
             style=" padding-left: 40px; margin: 0;background: rgba(125, 118, 118, 0.841); padding: 10px 20px; border-radius: 6px; max-width: 900px; margin-left: 60px; box-sizing: border-box;">
-            Mumbai, India’s bustling financial and entertainment hub, is a city of contrasts where colonial-era architecture meets modern skyscrapers. Visitors can explore iconic landmarks like the Gateway of India, Chhatrapati Shivaji Terminus, and Marine Drive, while vibrant neighborhoods offer shopping, street food, and cultural experiences. As the heart of Bollywood, Mumbai also gives travelers a glimpse into India’s film industry, from studio tours to lively cinemas. With its energetic vibe, diverse cuisine, and coastal charm, Mumbai is a city that never sleeps and offers a uniquely dynamic travel experience.
+            Mumbai, India’s bustling financial and entertainment hub, is a city of contrasts where colonial-era
+            architecture meets modern skyscrapers. Visitors can explore iconic landmarks like the Gateway of India,
+            Chhatrapati Shivaji Terminus, and Marine Drive, while vibrant neighborhoods offer shopping, street food, and
+            cultural experiences. As the heart of Bollywood, Mumbai also gives travelers a glimpse into India’s film
+            industry, from studio tours to lively cinemas. With its energetic vibe, diverse cuisine, and coastal charm,
+            Mumbai is a city that never sleeps and offers a uniquely dynamic travel experience.
         </p>
         <h4
             style="padding-left: 80px; margin-top: 10px; margin-bottom: 0;background: rgba(125, 118, 118, 0.841); padding: 10px 20px; border-radius: 6px; max-width: 340px; margin-left: 60px; box-sizing: border-box;">
             Click Image to Learn More About Mumbai!</h4>
-        <a href="https://thirdeyetraveller.com/mumbai/"
-            style="background-color:transparent;" target="_blank">
+        <a href="https://thirdeyetraveller.com/mumbai/" style="background-color:transparent;" target="_blank">
             <img src="https://i.natgeofe.com/n/a3ab98d9-e181-4ab3-a888-742c65acaf26/gateway-of-india-mumbai-india.jpg"
-                alt="Mumbai" width="340" height="210" style="padding-left:60px;">
+                alt="Mumbai" width="340" height="210" style="margin-left:60px;border:6px solid white;">
         </a>
     </div>
 
     <!-- About Varanasi -->
-    <div>
+    <div id="Varanasi">
         <div class="a">
             <h3
                 style="background: rgba(125, 118, 118, 0.841); padding: 10px 20px; border-radius: 6px; max-width: 150px; margin-left: 60px; box-sizing: border-box;">
@@ -187,20 +243,25 @@
         </div>
         <p
             style=" padding-left: 40px; margin: 0;background: rgba(125, 118, 118, 0.841); padding: 10px 20px; border-radius: 6px; max-width: 900px; margin-left: 60px; box-sizing: border-box;">
-            Varanasi, one of the world’s oldest living cities, is a spiritual heart of India situated along the sacred Ganges River. Pilgrims and travelers alike come to witness the mesmerizing rituals on the ghats, especially the evening Ganga Aarti, a ceremony of lights and prayers. The city’s narrow lanes are filled with temples, bustling markets, and traditional crafts, offering an authentic glimpse into daily life and devotion. Varanasi is also renowned for its silk weaving and classical music heritage, making it a unique blend of spirituality, culture, and history for curious travelers.
+            Varanasi, one of the world’s oldest living cities, is a spiritual heart of India situated along the sacred
+            Ganges River. Pilgrims and travelers alike come to witness the mesmerizing rituals on the ghats, especially
+            the evening Ganga Aarti, a ceremony of lights and prayers. The city’s narrow lanes are filled with temples,
+            bustling markets, and traditional crafts, offering an authentic glimpse into daily life and devotion.
+            Varanasi is also renowned for its silk weaving and classical music heritage, making it a unique blend of
+            spirituality, culture, and history for curious travelers.
         </p>
         <h4
             style="padding-left: 80px; margin-top: 10px; margin-bottom: 0;background: rgba(125, 118, 118, 0.841); padding: 10px 20px; border-radius: 6px; max-width: 355px; margin-left: 60px; box-sizing: border-box;">
             Click Image to Learn More About Varanasi!</h4>
-        <a href="https://thirdeyetraveller.com/varanasi-guide-tips/"
-            style="background-color:transparent;" target="_blank">
+        <a href="https://thirdeyetraveller.com/varanasi-guide-tips/" style="background-color:transparent;"
+            target="_blank">
             <img src="https://www.wildernesstravel.com/wp-content/uploads/2024/11/varanasi-ganges-river-india-1680x826.jpg"
-                alt="Varanasi" width="340" height="210" style="padding-left:60px;">
+                alt="Varanasi" width="340" height="210" style="margin-left:60px;border:6px solid white;">
         </a>
     </div>
 
     <!-- About Goa -->
-    <div>
+    <div id="Goa">
         <div class="a">
             <h3
                 style="background: rgba(125, 118, 118, 0.841); padding: 10px 20px; border-radius: 6px; max-width: 120px; margin-left: 60px; box-sizing: border-box;">
@@ -208,7 +269,12 @@
         </div>
         <p
             style=" padding-left: 40px; margin: 0;background: rgba(125, 118, 118, 0.841); padding: 10px 20px; border-radius: 6px; max-width: 900px; margin-left: 60px; box-sizing: border-box;">
-            Goa, India’s coastal gem, is famous for its sun-kissed beaches, vibrant nightlife, and Portuguese-influenced architecture. Visitors can relax on popular stretches like Baga and Palolem, explore historic churches such as Basilica of Bom Jesus, and wander through colorful markets and seaside shacks. Known for its lively festivals, fresh seafood, and water sports, Goa offers a perfect mix of relaxation and adventure. Its laid-back island vibe, combined with cultural charm, makes it a favorite destination for both domestic and international travelers.
+            Goa, India’s coastal gem, is famous for its sun-kissed beaches, vibrant nightlife, and Portuguese-influenced
+            architecture. Visitors can relax on popular stretches like Baga and Palolem, explore historic churches such
+            as Basilica of Bom Jesus, and wander through colorful markets and seaside shacks. Known for its lively
+            festivals, fresh seafood, and water sports, Goa offers a perfect mix of relaxation and adventure. Its
+            laid-back island vibe, combined with cultural charm, makes it a favorite destination for both domestic and
+            international travelers.
         </p>
         <h4
             style="padding-left: 80px; margin-top: 10px; margin-bottom: 0;background: rgba(125, 118, 118, 0.841); padding: 10px 20px; border-radius: 6px; max-width: 355px; margin-left: 60px; box-sizing: border-box;">
@@ -216,12 +282,12 @@
         <a href="https://www.global-gallivanting.com/best-ultimate-goa-travel-guide-and-insiders-tips/"
             style="background-color:transparent;" target="_blank">
             <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/33/fc/f0/goa.jpg?w=1400&h=1400&s=1"
-                alt="Goa" width="340" height="210" style="padding-left:60px;">
+                alt="Goa" width="340" height="210" style="margin-left:60px;border:6px solid white;">
         </a>
     </div>
 
     <!-- About Udaipur -->
-    <div>
+    <div id="Udaipur">
         <div class="a">
             <h3
                 style="background: rgba(125, 118, 118, 0.841); padding: 10px 20px; border-radius: 6px; max-width: 145px; margin-left: 60px; box-sizing: border-box;">
@@ -229,7 +295,12 @@
         </div>
         <p
             style=" padding-left: 40px; margin: 0;background: rgba(125, 118, 118, 0.841); padding: 10px 20px; border-radius: 6px; max-width: 900px; margin-left: 60px; box-sizing: border-box;">
-            Udaipur, often called the City of Lakes, is a romantic and picturesque destination in Rajasthan, celebrated for its majestic palaces, serene lakes, and rich heritage. Visitors can explore the stunning City Palace, take a boat ride on Lake Pichola, and admire the intricate architecture of Jag Mandir and Jagdish Temple. The city’s narrow streets are dotted with traditional markets, offering handicrafts, textiles, and local art. With its blend of royal history, scenic beauty, and cultural charm, Udaipur provides travelers with a truly enchanting experience.
+            Udaipur, often called the City of Lakes, is a romantic and picturesque destination in Rajasthan, celebrated
+            for its majestic palaces, serene lakes, and rich heritage. Visitors can explore the stunning City Palace,
+            take a boat ride on Lake Pichola, and admire the intricate architecture of Jag Mandir and Jagdish Temple.
+            The city’s narrow streets are dotted with traditional markets, offering handicrafts, textiles, and local
+            art. With its blend of royal history, scenic beauty, and cultural charm, Udaipur provides travelers with a
+            truly enchanting experience.
         </p>
         <h4
             style="padding-left: 80px; margin-top: 10px; margin-bottom: 0;background: rgba(125, 118, 118, 0.841); padding: 10px 20px; border-radius: 6px; max-width: 355px; margin-left: 60px; box-sizing: border-box;">
@@ -237,12 +308,12 @@
         <a href="https://www.thecommonwanderer.com/blog/places-to-visit-in-udaipur-india"
             style="background-color:transparent;" target="_blank">
             <img src="https://cdn.audleytravel.com/4019/2869/79/7994799-city-palace-and-lake-pichola-in-udaipur-india.jpg"
-                alt="Udaipur" width="340" height="210" style="padding-left:60px;">
+                alt="Udaipur" width="340" height="210" style="margin-left:60px;border:6px solid white;">
         </a>
     </div>
 
     <!-- About Leh-Ladakh -->
-    <div>
+    <div if="Leh-Ladakh">
         <div class="a">
             <h3
                 style="background: rgba(125, 118, 118, 0.841); padding: 10px 20px; border-radius: 6px; max-width: 185px; margin-left: 60px; box-sizing: border-box;">
@@ -250,15 +321,20 @@
         </div>
         <p
             style=" padding-left: 40px; margin: 0;background: rgba(125, 118, 118, 0.841); padding: 10px 20px; border-radius: 6px; max-width: 900px; margin-left: 60px; box-sizing: border-box;">
-            Leh-Ladakh, perched high in the Indian Himalayas, is a land of dramatic landscapes, rugged mountains, and serene monasteries. Travelers are drawn to its striking pangong and tsomoriri lakes, ancient Buddhist monasteries like Hemis and Thiksey, and thrilling adventure opportunities such as trekking, river rafting, and biking along high-altitude passes. The region’s unique culture, vibrant festivals, and welcoming local communities add to its charm. With its stark beauty and sense of remoteness, Leh-Ladakh offers an unforgettable journey for nature lovers, adventure seekers, and spiritual travelers alike.
+            Leh-Ladakh, perched high in the Indian Himalayas, is a land of dramatic landscapes, rugged mountains, and
+            serene monasteries. Travelers are drawn to its striking pangong and tsomoriri lakes, ancient Buddhist
+            monasteries like Hemis and Thiksey, and thrilling adventure opportunities such as trekking, river rafting,
+            and biking along high-altitude passes. The region’s unique culture, vibrant festivals, and welcoming local
+            communities add to its charm. With its stark beauty and sense of remoteness, Leh-Ladakh offers an
+            unforgettable journey for nature lovers, adventure seekers, and spiritual travelers alike.
         </p>
         <h4
             style="padding-left: 80px; margin-top: 10px; margin-bottom: 0;background: rgba(125, 118, 118, 0.841); padding: 10px 20px; border-radius: 6px; max-width: 390px; margin-left: 60px; box-sizing: border-box;">
             Click Image to Learn More About Leh-Ladakh!</h4>
-        <a href="https://www.lehladakhtourism.com/ladakh-travel-guide/"
-            style="background-color:transparent;" target="_blank">
+        <a href="https://www.lehladakhtourism.com/ladakh-travel-guide/" style="background-color:transparent;"
+            target="_blank">
             <img src="https://www.indiantempletour.com/wp-content/uploads/2019/01/Leh-Ladakh-Package.webp"
-                alt="Leh-Ladakh" width="340" height="210" style="padding-left:60px;">
+                alt="Leh-Ladakh" width="340" height="210" style="margin-left:60px;border:6px solid white;">
         </a>
     </div>
 
@@ -272,12 +348,20 @@
             <b>Click to Learn About More Cities!</b></a>
     </div>
     <br>
+     <div class="center-links">
+        <a href="#top"
+            style="font-size:15px; color:rgb(255, 255, 255); font-family:'Kalam',garamond;background: rgba(125, 118, 118, 0.841);padding: 10px 20px; border-radius: 6px; max-width: 440px; box-sizing:border-box;text-align: center;">
+            <b>Go to Top</b></a>
+    </div>
+    <br>
 
-    <div class="center-links">
+    <div class="center-links" id="bottom">
         <a href="main.html"
             style="font-size:15px; color:rgb(255, 255, 255); font-family:'Kalam',garamond;background: rgba(125, 118, 118, 0.841);padding: 10px 20px; border-radius: 6px; max-width: 440px; box-sizing:border-box;text-align: center;">
             <b>Return to Home Page</b></a>
     </div>
+   
+    
 
 
 </body>

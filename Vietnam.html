@@ -75,6 +75,31 @@
         a:hover {
             background-color: white;
         }
+
+        .city-nav {
+            text-align: center;
+            margin: 20px auto;
+            margin-top: 0px;
+            padding: 5px;
+            max-width: 95%;
+            flex-wrap: wrap;
+            display: flex;
+            justify-content: center;
+            gap: 6px;
+            background: rgba(255, 255, 255, 0.75);
+            border-radius: 10px;
+        }
+
+        .city-nav a {
+            font-family: 'Playwrite Việt Nam', sans-serif;
+            background-color: white;
+            color: black;
+            padding: 8px 14px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+            font-size: 16px;
+        }
     </style>
 
 </head>
@@ -82,8 +107,22 @@
 <body>
 
     <h1 style="text-align:center;font-size: 60px; ">
-        <b>Vietnam</b>
+        <b id="top">Vietnam</b>
     </h1>
+    <p style="font-size: 15px;text-align: center;color:white;margin-bottom: 0;">Easier Way to Travel to Each City</p>
+    <div class="city-nav">
+        <a href="#Ha%20Noi">Ha Noi</a>
+        <a href="#Ho%20Chi%20Ming">Ho Chi Minh</a>
+        <a href="#Da%20Nang">Da Nang</a>
+        <a href="#Hội%20An">Hội An</a>
+        <a href="#Hue">Hue</a>
+        <a href="#Nha%20Trang">Nha Trang</a>
+        <a href="#Ha%20Long%20City">Ha Long City</a>
+        <a href="#Can%20Tho">Can Tho</a>
+        <a href="#Da%20Lat">Da Lat</a>
+        <a href="#Phu%20Quoc">Phu Quoc</a>
+        <a href="#bottom">Go to Bottom</a>
+    </div>
 
 
     <h2
@@ -96,28 +135,37 @@
         Popular Cities in Vietnam include <i>Hanoi, Ho Chi Minh, Da Nang, Hội An, Hue, Nha Trang, Ha Long City, Can
             Tho, Dalat, and Phu Quoc</i>.</p>
 
-    <!-- About Hanoi -->
-    <div>
+
+
+    <!-- About Ha Noi -->
+    <div id="Ha Noi">
         <div class="a">
             <h3
-                style="background: rgba(255, 255, 255, 0.822); padding: 10px 20px; border-radius: 6px; max-width: 130px; margin-left: 60px; box-sizing: border-box;">
-                Hanoi</h3>
+                style="background: rgba(255, 255, 255, 0.822); padding: 10px 20px; border-radius: 6px; max-width: 145px; margin-left: 60px; box-sizing: border-box;">
+                Ha Noi</h3>
         </div>
         <p
             style=" padding-left: 40px; margin: 0;background: rgba(255, 255, 255, 0.822); padding: 10px 20px; border-radius: 6px; max-width: 900px; margin-left: 60px; box-sizing: border-box;">
-            Hanoi, Vietnam’s capital, is a city where old-world charm meets modern vibrancy. The bustling Old Quarter enchants visitors with narrow streets, traditional shops, and street food stalls serving iconic dishes like pho and banh mi. History comes alive at landmarks such as the Ho Chi Minh Mausoleum, the Temple of Literature, and the French colonial architecture scattered across the city. Around Hoan Kiem Lake, travelers can enjoy a peaceful stroll or watch locals practicing tai chi at dawn. Hanoi is also a gateway to northern Vietnam’s wonders, including Ha Long Bay and Sapa. With its mix of culture, history, and daily life unfolding on every corner, Hanoi offers an authentic glimpse into Vietnam’s soul.
+            Ha Noi, Vietnam’s capital, is a city where old-world charm meets modern vibrancy. The bustling Old Quarter
+            enchants visitors with narrow streets, traditional shops, and street food stalls serving iconic dishes like
+            pho and banh mi. History comes alive at landmarks such as the Ho Chi Minh Mausoleum, the Temple of
+            Literature, and the French colonial architecture scattered across the city. Around Hoan Kiem Lake, travelers
+            can enjoy a peaceful stroll or watch locals practicing tai chi at dawn. Hanoi is also a gateway to northern
+            Vietnam’s wonders, including Ha Long Bay and Sapa. With its mix of culture, history, and daily life
+            unfolding on every corner, Hanoi offers an authentic glimpse into Vietnam’s soul.
         </p>
         <h4
             style="padding-left: 80px; margin-top: 10px; margin-bottom: 0;background: rgba(255, 255, 255, 0.822); padding: 10px 20px; border-radius: 6px; max-width: 410px; margin-left: 60px; box-sizing: border-box;">
-            Click Image to Learn More About Hanoi!</h4>
-        <a href="https://vietnam.travel/places-to-go/northern-vietnam/ha-noi" style="background-color:transparent;" target="_blank">
+            Click Image to Learn More About Ha Noi!</h4>
+        <a href="https://vietnam.travel/places-to-go/northern-vietnam/ha-noi" style="background-color:transparent;"
+            target="_blank">
             <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/a0/f8/d9/caption.jpg?w=1200&h=700&s=1&cx=2592&cy=1944&chk=v1_fc3c296190dcb08ab8f0"
-                alt="Hanoi" width="340" height="190" style="margin-left:60px;border:6px solid white;">
+                alt="Ha Noi" width="340" height="190" style="margin-left:60px;border:6px solid white;">
         </a>
     </div>
 
     <!-- About Ho Chi Minh -->
-    <div>
+    <div id="Ho Chi Ming">
         <div class="a">
             <h3
                 style="background: rgba(255, 255, 255, 0.822); padding: 10px 20px; border-radius: 6px; max-width: 200px; margin-left: 60px; box-sizing: border-box;">
@@ -125,134 +173,238 @@
         </div>
         <p
             style=" padding-left: 40px; margin: 0;background: rgba(255, 255, 255, 0.822); padding: 10px 20px; border-radius: 6px; max-width: 900px; margin-left: 60px; box-sizing: border-box;">
-            Ho Chi Minh City, still often called Saigon, is Vietnam’s bustling southern metropolis known for its energy and diversity. Visitors can explore historic landmarks like the Notre-Dame Cathedral, Saigon Central Post Office, and the poignant War Remnants Museum. The lively Ben Thanh Market is perfect for shopping and tasting local delicacies, while rooftop cafes and bars offer views of the city’s modern skyline. Nearby, the Cu Chi Tunnels provide insight into Vietnam’s wartime history. With its mix of French colonial charm, vibrant street life, and fast-paced growth, Ho Chi Minh City is a dynamic destination that captures both Vietnam’s past and present.
+            Ho Chi Minh City, still often called Saigon, is Vietnam’s bustling southern metropolis known for its energy
+            and diversity. Visitors can explore historic landmarks like the Notre-Dame Cathedral, Saigon Central Post
+            Office, and the poignant War Remnants Museum. The lively Ben Thanh Market is perfect for shopping and
+            tasting local delicacies, while rooftop cafes and bars offer views of the city’s modern skyline. Nearby, the
+            Cu Chi Tunnels provide insight into Vietnam’s wartime history. With its mix of French colonial charm,
+            vibrant street life, and fast-paced growth, Ho Chi Minh City is a dynamic destination that captures both
+            Vietnam’s past and present.
         </p>
         <h4
             style="padding-left: 80px; margin-top: 10px; margin-bottom: 0;background: rgba(255, 255, 255, 0.822); padding: 10px 20px; border-radius: 6px; max-width: 500px; margin-left: 60px; box-sizing: border-box;">
             Click Image to Learn More About Ho Chi Minh!</h4>
-        <a href="https://vietnam.travel/places-to-go/southern-vietnam/ho-chi-minh-city" style="background-color:transparent;" target="_blank">
+        <a href="https://vietnam.travel/places-to-go/southern-vietnam/ho-chi-minh-city"
+            style="background-color:transparent;" target="_blank">
             <img src="https://images.contentstack.io/v3/assets/blt06f605a34f1194ff/blt26a938a91fc7ef7c/6780d9b138abf930701ef608/BCC-2024-EXPLORER-HO_CHI_MINH_CITY-BEST_VIEWS-HEADER-MOBILE.jpg?format=webp&quality=60&width=1440"
                 alt="Ho Chi Minh" width="340" height="190" style="margin-left:60px;border:6px solid white;">
         </a>
     </div>
 
     <!-- About Da Nang -->
-    <div>
+    <div id="Da Nang">
         <div class="a">
             <h3
-                style="background: rgba(255, 255, 255, 0.822); padding: 10px 20px; border-radius: 6px; max-width: 200px; margin-left: 60px; box-sizing: border-box;">Da Nang
-                </h3>
+                style="background: rgba(255, 255, 255, 0.822); padding: 10px 20px; border-radius: 6px; max-width: 200px; margin-left: 60px; box-sizing: border-box;">
+                Da Nang
+            </h3>
         </div>
         <p
             style=" padding-left: 40px; margin: 0;background: rgba(255, 255, 255, 0.822); padding: 10px 20px; border-radius: 6px; max-width: 900px; margin-left: 60px; box-sizing: border-box;">
-            Da Nang, a coastal gem of central Vietnam, is known for its long sandy beaches and modern, laid-back atmosphere. Travelers can relax at My Khe Beach, explore the dramatic Marble Mountains, or admire the iconic Dragon Bridge that lights up the city at night. Just outside Da Nang, the hilltop Ba Na Hills and its famous Golden Bridge draw visitors with stunning views and unique architecture. The city also serves as a gateway to cultural treasures, with Hội An and Hue only a short drive away. With its mix of seaside beauty, cultural landmarks, and easygoing charm, Da Nang is a favorite stop on any Vietnam journey.
+            Da Nang, a coastal gem of central Vietnam, is known for its long sandy beaches and modern, laid-back
+            atmosphere. Travelers can relax at My Khe Beach, explore the dramatic Marble Mountains, or admire the iconic
+            Dragon Bridge that lights up the city at night. Just outside Da Nang, the hilltop Ba Na Hills and its famous
+            Golden Bridge draw visitors with stunning views and unique architecture. The city also serves as a gateway
+            to cultural treasures, with Hội An and Hue only a short drive away. With its mix of seaside beauty, cultural
+            landmarks, and easygoing charm, Da Nang is a favorite stop on any Vietnam journey.
         </p>
         <h4
             style="padding-left: 80px; margin-top: 10px; margin-bottom: 0;background: rgba(255, 255, 255, 0.822); padding: 10px 20px; border-radius: 6px; max-width: 440px; margin-left: 60px; box-sizing: border-box;">
             Click Image to Learn More About Da Nang!</h4>
-        <a href="https://vietnam.travel/places-to-go/central-vietnam/da-nang" style="background-color:transparent;" target="_blank">
+        <a href="https://vietnam.travel/places-to-go/central-vietnam/da-nang" style="background-color:transparent;"
+            target="_blank">
             <img src="https://image.vietnam.travel/sites/default/files/2022-09/shutterstock_1062872345_1.jpg?v=1757143493"
                 alt="Da Nang" width="340" height="190" style="margin-left:60px;border:6px solid white;">
         </a>
     </div>
 
     <!-- About Hội An -->
-    <div>
+    <div id="Hội An">
         <div class="a">
             <h3
-                style="background: rgba(255, 255, 255, 0.822); padding: 10px 20px; border-radius: 6px; max-width: 150px; margin-left: 60px; box-sizing: border-box;">Hội An
-                </h3>
+                style="background: rgba(255, 255, 255, 0.822); padding: 10px 20px; border-radius: 6px; max-width: 150px; margin-left: 60px; box-sizing: border-box;">
+                Hội An
+            </h3>
         </div>
         <p
             style=" padding-left: 40px; margin: 0;background: rgba(255, 255, 255, 0.822); padding: 10px 20px; border-radius: 6px; max-width: 900px; margin-left: 60px; box-sizing: border-box;">
-            Hội An, a UNESCO World Heritage town, is famous for its beautifully preserved architecture and lantern-lit streets. The riverside city enchants visitors with old merchant houses, traditional temples, and colorful markets filled with local crafts and textiles. At night, the streets glow with countless lanterns, creating a magical atmosphere perfect for evening strolls or boat rides along the river. Hội An is also renowned for its culinary delights, including cao lầu noodles and fresh seafood. With its blend of history, culture, and charm, Hội An offers travelers a peaceful yet captivating glimpse into Vietnam’s past.
+            Hội An, a UNESCO World Heritage town, is famous for its beautifully preserved architecture and lantern-lit
+            streets. The riverside city enchants visitors with old merchant houses, traditional temples, and colorful
+            markets filled with local crafts and textiles. At night, the streets glow with countless lanterns, creating
+            a magical atmosphere perfect for evening strolls or boat rides along the river. Hội An is also renowned for
+            its culinary delights, including cao lầu noodles and fresh seafood. With its blend of history, culture, and
+            charm, Hội An offers travelers a peaceful yet captivating glimpse into Vietnam’s past.
         </p>
         <h4
             style="padding-left: 80px; margin-top: 10px; margin-bottom: 0;background: rgba(255, 255, 255, 0.822); padding: 10px 20px; border-radius: 6px; max-width: 410px; margin-left: 60px; box-sizing: border-box;">
             Click Image to Learn More About Hội An!</h4>
-        <a href="https://vietnam.travel/places-to-go/central-vietnam/hoi-an" style="background-color:transparent;" target="_blank">
+        <a href="https://vietnam.travel/places-to-go/central-vietnam/hoi-an" style="background-color:transparent;"
+            target="_blank">
             <img src="https://vietnam.travel/sites/default/files/inline-images/11125-Qu%E1%BA%A3ng%20Nam-huybank%40gmail.com-hoi%20an%20ve%20dem%20.jpg"
                 alt="Hội An" width="340" height="190" style="margin-left:60px;border:6px solid white;">
         </a>
     </div>
 
-     <!-- About Hue -->
-    <div>
+    <!-- About Hue -->
+    <div id="Hue">
         <div class="a">
             <h3
-                style="background: rgba(255, 255, 255, 0.822); padding: 10px 20px; border-radius: 6px; max-width: 125px; margin-left: 60px; box-sizing: border-box;">Hue
-                </h3>
+                style="background: rgba(255, 255, 255, 0.822); padding: 10px 20px; border-radius: 6px; max-width: 125px; margin-left: 60px; box-sizing: border-box;">
+                Hue
+            </h3>
         </div>
         <p
             style=" padding-left: 40px; margin: 0;background: rgba(255, 255, 255, 0.822); padding: 10px 20px; border-radius: 6px; max-width: 900px; margin-left: 60px; box-sizing: border-box;">
-            Hue, the former imperial capital of Vietnam, is steeped in history and cultural significance. The city is centered around the Imperial Citadel, a UNESCO World Heritage Site, where visitors can explore palaces, temples, and royal tombs of the Nguyen Dynasty. Scenic Perfume River cruises offer a tranquil way to take in the city’s landmarks and surrounding countryside. Hue is also famous for its royal cuisine, featuring delicate and flavorful dishes unique to the region. With its blend of history, architecture, and riverside charm, Hue provides travelers with an immersive journey into Vietnam’s royal past.
+            Hue, the former imperial capital of Vietnam, is steeped in history and cultural significance. The city is
+            centered around the Imperial Citadel, a UNESCO World Heritage Site, where visitors can explore palaces,
+            temples, and royal tombs of the Nguyen Dynasty. Scenic Perfume River cruises offer a tranquil way to take in
+            the city’s landmarks and surrounding countryside. Hue is also famous for its royal cuisine, featuring
+            delicate and flavorful dishes unique to the region. With its blend of history, architecture, and riverside
+            charm, Hue provides travelers with an immersive journey into Vietnam’s royal past.
         </p>
         <h4
             style="padding-left: 80px; margin-top: 10px; margin-bottom: 0;background: rgba(255, 255, 255, 0.822); padding: 10px 20px; border-radius: 6px; max-width: 410px; margin-left: 60px; box-sizing: border-box;">
             Click Image to Learn More About Hue!</h4>
-        <a href="https://vietnam.travel/places-to-go/central-vietnam/hue" style="background-color:transparent;" target="_blank">
+        <a href="https://vietnam.travel/places-to-go/central-vietnam/hue" style="background-color:transparent;"
+            target="_blank">
             <img src="https://cdn.britannica.com/23/185223-050-71EBC6C2/Thien-Mu-pagoda-Huong-River-Vietnam-Hue.jpg"
                 alt="Hue" width="340" height="190" style="margin-left:60px;border:6px solid white;">
         </a>
     </div>
 
     <!-- About Nha Trang -->
-    <div>
+    <div id="Nha Trang">
         <div class="a">
             <h3
-                style="background: rgba(255, 255, 255, 0.822); padding: 10px 20px; border-radius: 6px; max-width: 170px; margin-left: 60px; box-sizing: border-box;">Nha Trang
-                </h3>
+                style="background: rgba(255, 255, 255, 0.822); padding: 10px 20px; border-radius: 6px; max-width: 170px; margin-left: 60px; box-sizing: border-box;">
+                Nha Trang
+            </h3>
         </div>
         <p
             style=" padding-left: 40px; margin: 0;background: rgba(255, 255, 255, 0.822); padding: 10px 20px; border-radius: 6px; max-width: 900px; margin-left: 60px; box-sizing: border-box;">
-            Nha Trang, a vibrant coastal city in southern Vietnam, is famous for its pristine beaches and lively seaside atmosphere. Visitors can soak up the sun at Nha Trang Beach, explore the historic Po Nagar Cham Towers, or take a boat trip to nearby islands for snorkeling and diving. The city also offers a range of attractions, including Vinpearl Amusement Park and relaxing mud baths known for their therapeutic properties. With its mix of natural beauty, cultural sites, and modern leisure activities, Nha Trang is a perfect destination for both relaxation and adventure.
+            Nha Trang, a vibrant coastal city in southern Vietnam, is famous for its pristine beaches and lively seaside
+            atmosphere. Visitors can soak up the sun at Nha Trang Beach, explore the historic Po Nagar Cham Towers, or
+            take a boat trip to nearby islands for snorkeling and diving. The city also offers a range of attractions,
+            including Vinpearl Amusement Park and relaxing mud baths known for their therapeutic properties. With its
+            mix of natural beauty, cultural sites, and modern leisure activities, Nha Trang is a perfect destination for
+            both relaxation and adventure.
         </p>
         <h4
             style="padding-left: 80px; margin-top: 10px; margin-bottom: 0;background: rgba(255, 255, 255, 0.822); padding: 10px 20px; border-radius: 6px; max-width: 440px; margin-left: 60px; box-sizing: border-box;">
             Click Image to Learn More About Nha Trang!</h4>
-        <a href="https://vietnam.travel/places-to-go/central-vietnam/nha-trang" style="background-color:transparent;" target="_blank">
+        <a href="https://vietnam.travel/places-to-go/central-vietnam/nha-trang" style="background-color:transparent;"
+            target="_blank">
             <img src="https://cdn.britannica.com/23/185223-050-71EBC6C2/Thien-Mu-pagoda-Huong-River-Vietnam-Hue.jpg"
                 alt="Nha Trang" width="340" height="190" style="margin-left:60px;border:6px solid white;">
         </a>
     </div>
 
     <!-- About Ha Long City -->
-    <div>
+    <div id="Ha Long City">
         <div class="a">
             <h3
-                style="background: rgba(255, 255, 255, 0.822); padding: 10px 20px; border-radius: 6px; max-width: 200px; margin-left: 60px; box-sizing: border-box;">Ha Long City
-                </h3>
+                style="background: rgba(255, 255, 255, 0.822); padding: 10px 20px; border-radius: 6px; max-width: 200px; margin-left: 60px; box-sizing: border-box;">
+                Ha Long City
+            </h3>
         </div>
         <p
             style=" padding-left: 40px; margin: 0;background: rgba(255, 255, 255, 0.822); padding: 10px 20px; border-radius: 6px; max-width: 900px; margin-left: 60px; box-sizing: border-box;">
-            Ha Long City, the gateway to the world-famous Ha Long Bay, is a must-visit destination in northern Vietnam. The city itself offers vibrant markets, seafood restaurants, and harbor views, but most travelers come for cruises among the bay’s thousands of limestone islands and emerald waters. Visitors can explore caves, go kayaking, or relax on quiet beaches while taking in the stunning karst landscapes. Ha Long Bay, a UNESCO World Heritage Site, provides one of Vietnam’s most iconic natural experiences. With its combination of scenic beauty, adventure activities, and local culture, Ha Long City is an unforgettable stop on any northern Vietnam itinerary.
+            Ha Long City, the gateway to the world-famous Ha Long Bay, is a must-visit destination in northern Vietnam.
+            The city itself offers vibrant markets, seafood restaurants, and harbor views, but most travelers come for
+            cruises among the bay’s thousands of limestone islands and emerald waters. Visitors can explore caves, go
+            kayaking, or relax on quiet beaches while taking in the stunning karst landscapes. Ha Long Bay, a UNESCO
+            World Heritage Site, provides one of Vietnam’s most iconic natural experiences. With its combination of
+            scenic beauty, adventure activities, and local culture, Ha Long City is an unforgettable stop on any
+            northern Vietnam itinerary.
         </p>
         <h4
             style="padding-left: 80px; margin-top: 10px; margin-bottom: 0;background: rgba(255, 255, 255, 0.822); padding: 10px 20px; border-radius: 6px; max-width: 470px; margin-left: 60px; box-sizing: border-box;">
             Click Image to Learn More About Ha Long City!</h4>
-        <a href="https://vietnam.travel/places-to-go/northern-vietnam/ha-long" style="background-color:transparent;" target="_blank">
+        <a href="https://vietnam.travel/places-to-go/northern-vietnam/ha-long" style="background-color:transparent;"
+            target="_blank">
             <img src="https://upload.wikimedia.org/wikipedia/commons/4/42/Ha_Long_2019_taken_by_DJI_FC220.jpg"
                 alt="Ha Long City" width="340" height="190" style="margin-left:60px;border:6px solid white;">
         </a>
     </div>
 
     <!-- About Can Tho -->
-    <div>
+    <div id="Can Tho">
         <div class="a">
             <h3
-                style="background: rgba(255, 255, 255, 0.822); padding: 10px 20px; border-radius: 6px; max-width: 160px; margin-left: 60px; box-sizing: border-box;">Can Tho
-                </h3>
+                style="background: rgba(255, 255, 255, 0.822); padding: 10px 20px; border-radius: 6px; max-width: 160px; margin-left: 60px; box-sizing: border-box;">
+                Can Tho
+            </h3>
         </div>
         <p
             style=" padding-left: 40px; margin: 0;background: rgba(255, 255, 255, 0.822); padding: 10px 20px; border-radius: 6px; max-width: 900px; margin-left: 60px; box-sizing: border-box;">
-            Can Tho, located in the heart of the Mekong Delta, is famous for its lively river culture and floating markets. Visitors can take early-morning boat trips along the Cai Rang or Phong Dien floating markets to see traders selling fresh produce directly from their boats. The city is also home to traditional villages, fruit orchards, and scenic canals that showcase daily life along the Mekong River. With its rich agricultural landscapes, authentic local experiences, and warm hospitality, Can Tho offers travelers a unique glimpse into Vietnam’s riverine way of life.
+            Can Tho, located in the heart of the Mekong Delta, is famous for its lively river culture and floating
+            markets. Visitors can take early-morning boat trips along the Cai Rang or Phong Dien floating markets to see
+            traders selling fresh produce directly from their boats. The city is also home to traditional villages,
+            fruit orchards, and scenic canals that showcase daily life along the Mekong River. With its rich
+            agricultural landscapes, authentic local experiences, and warm hospitality, Can Tho offers travelers a
+            unique glimpse into Vietnam’s riverine way of life.
         </p>
         <h4
             style="padding-left: 80px; margin-top: 10px; margin-bottom: 0;background: rgba(255, 255, 255, 0.822); padding: 10px 20px; border-radius: 6px; max-width: 470px; margin-left: 60px; box-sizing: border-box;">
             Click Image to Learn More About Can Tho!</h4>
-        <a href="https://vietnam.travel/places-to-go/southern-vietnam/can-tho" style="background-color:transparent;" target="_blank">
+        <a href="https://vietnam.travel/places-to-go/southern-vietnam/can-tho" style="background-color:transparent;"
+            target="_blank">
             <img src="https://image.vietnam.travel/sites/default/files/styles/top_banner/public/2021-05/Can%20Tho%20travel%20guide.jpg?itok=q-ZZl_aD"
                 alt="Can Tho" width="340" height="190" style="margin-left:60px;border:6px solid white;">
+        </a>
+    </div>
+
+    <!-- About Da Lat -->
+    <div id="Da Lat">
+        <div class="a">
+            <h3
+                style="background: rgba(255, 255, 255, 0.822); padding: 10px 20px; border-radius: 6px; max-width: 140px; margin-left: 60px; box-sizing: border-box;">
+                Da Lat
+            </h3>
+        </div>
+        <p
+            style=" padding-left: 40px; margin: 0;background: rgba(255, 255, 255, 0.822); padding: 10px 20px; border-radius: 6px; max-width: 900px; margin-left: 60px; box-sizing: border-box;">
+            Da Lat, nestled in Vietnam’s Central Highlands, is a cool, scenic city known for its French colonial
+            architecture, flower gardens, and tranquil lakes. Visitors can stroll around Xuan Huong Lake, explore the
+            colorful Da Lat Market, or admire the romantic Crazy House with its unique design. The surrounding
+            countryside offers waterfalls, pine forests, and coffee plantations, making it a haven for nature lovers and
+            photographers. With its mild climate, charming streets, and scenic landscapes, Da Lat provides a peaceful
+            and picturesque escape from Vietnam’s bustling cities.
+        </p>
+        <h4
+            style="padding-left: 80px; margin-top: 10px; margin-bottom: 0;background: rgba(255, 255, 255, 0.822); padding: 10px 20px; border-radius: 6px; max-width: 440px; margin-left: 60px; box-sizing: border-box;">
+            Click Image to Learn More About Da Lat!</h4>
+        <a href="https://vietnam.travel/places-to-go/central-vietnam/dalat" style="background-color:transparent;"
+            target="_blank">
+            <img src="https://www.dalattrip.com/media/2012/10/Dalat-Vietnam-Dalat-central-lake.jpg" alt="Da Lat"
+                width="340" height="190" style="margin-left:60px;border:6px solid white;">
+        </a>
+    </div>
+
+    <!-- About Phu Quoc -->
+    <div id="Phu Quoc">
+        <div class="a">
+            <h3
+                style="background: rgba(255, 255, 255, 0.822); padding: 10px 20px; border-radius: 6px; max-width: 170px; margin-left: 60px; box-sizing: border-box;">
+                Phu Quoc
+            </h3>
+        </div>
+        <p
+            style=" padding-left: 40px; margin: 0;background: rgba(255, 255, 255, 0.822); padding: 10px 20px; border-radius: 6px; max-width: 900px; margin-left: 60px; box-sizing: border-box;">
+            Phu Quoc, Vietnam’s tropical island paradise, is famous for its white-sand beaches, clear turquoise waters,
+            and relaxed island vibe. Visitors can unwind at Long Beach, explore Phu Quoc National Park, or take boat
+            trips to nearby islands for snorkeling and diving. The island is also known for its bustling night markets,
+            fresh seafood, and local specialties like fish sauce and pepper farms. With its mix of natural beauty,
+            adventure opportunities, and laid-back charm, Phu Quoc is an ideal destination for travelers seeking both
+            relaxation and exploration in Vietnam.
+        </p>
+        <h4
+            style="padding-left: 80px; margin-top: 10px; margin-bottom: 0;background: rgba(255, 255, 255, 0.822); padding: 10px 20px; border-radius: 6px; max-width: 440px; margin-left: 60px; box-sizing: border-box;">
+            Click Image to Learn More About Phu Quoc!</h4>
+        <a href="https://vietnam.travel/places-to-go/southern-vietnam/phu-quoc" style="background-color:transparent;"
+            target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Bai-sao-phu-quoc-tuonglamphotos.jpg/1200px-Bai-sao-phu-quoc-tuonglamphotos.jpg"
+                alt="Phu Quoc" width="340" height="190" style="margin-left:60px;border:6px solid white;">
         </a>
     </div>
 
@@ -263,16 +415,24 @@
     <p><br></p>
     <p><br></p>
     <div class="center-links">
-        <a href="https://www.travelchinaguide.com/cityguides/?srsltid=AfmBOors3P8laelPjCtc4XGBDK8uFhAcL5rwpVKNlmKaj7fI34_CpHin"
-            style="font-size:40px; color:black; font-family:'Dongle',garamond;background: rgba(255, 255, 255, 0.822); padding: 10px 20px; border-radius: 6px; max-width: 440px; box-sizing:border-box;text-align: center;"
+        <a href="https://vietnam.travel/place-to-go"
+            style="font-size:25px; color:black; font-family:'Playwrite Việt Nam',garamond;background: rgba(255, 255, 255, 0.822); padding: 10px 20px; border-radius: 6px; max-width: 440px; box-sizing:border-box;text-align: center;"
             target="_blank">
             <b>Click to Learn About More Cities!</b></a>
     </div>
     <br>
 
     <div class="center-links">
+        <a href="#top"
+            style="font-size:15px; color:black; font-family:'Playwrite Việt Nam',garamond;background: rgba(255, 255, 255, 0.822); padding: 10px 20px; border-radius: 6px; max-width: 440px; box-sizing:border-box;text-align: center;">
+            <b>Go to Top</b></a>
+    </div>
+
+    <br>
+
+    <div class="center-links" id="bottom">
         <a href="main.html"
-            style="font-size:25px; color:black; font-family:'Dongle',garamond;background: rgba(255, 255, 255, 0.822); padding: 10px 20px; border-radius: 6px; max-width: 440px; box-sizing:border-box;text-align: center;">
+            style="font-size:15px; color:black; font-family:'Playwrite Việt Nam',garamond;background: rgba(255, 255, 255, 0.822); padding: 10px 20px; border-radius: 6px; max-width: 440px; box-sizing:border-box;text-align: center;">
             <b>Return to Home Page</b></a>
     </div>
 

@@ -35,7 +35,7 @@
 
         p {
             color: rgb(21, 21, 21);
-            font-family: 'Nanum Myeongjo',cursive;
+            font-family: 'Nanum Myeongjo', cursive;
         }
 
         h2 {
@@ -75,6 +75,31 @@
         a:hover {
             background-color: white;
         }
+
+        .city-nav {
+            text-align: center;
+            margin: 20px auto;
+            margin-top: 0px;
+            padding: 5px;
+            max-width: 95%;
+            flex-wrap: wrap;
+            display: flex;
+            justify-content: center;
+            gap: 6px;
+            background: rgba(255, 255, 255, 0.75);
+            border-radius: 10px;
+        }
+
+        .city-nav a {
+            font-family: 'Dongle', sans-serif;
+            background-color: white;
+            color: black;
+            padding: 8px 14px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+            font-size: 20px;
+        }
     </style>
 
 </head>
@@ -82,9 +107,20 @@
 <body>
 
     <h1 style="text-align:center;font-size: 60px; ">
-        <b>South Korea</b>
+        <b id="top">South Korea</b>
     </h1>
-
+    <p style="font-size: 15px;text-align: center;color:white;margin-bottom: 0;">Easier Way to Travel to Each City</p>
+    <div class="city-nav">
+        <a href="#Seoul">Seoul</a>
+        <a href="#Busan">Busan</a>
+        <a href="#Jeju%20City">Jeju City</a>
+        <a href="#Incheon">Incheon</a>
+        <a href="#Gyeongju">Gyeongju</a>
+        <a href="#Suwon">Suwon</a>
+        <a href="#Gangneung">Gangneung</a>
+        <a href="#bottom">Go to Bottom</a>
+        
+    </div>
 
     <h2
         style="background: rgba(255, 255, 255, 0.822);padding: 2px 6px;border-radius: 6px;display: inline-block;box-sizing: border-box;">
@@ -96,7 +132,7 @@
         Popular Cities in South Korea include <i>Seoul, Busan, Jeju City, Incheon, Gyeongju, Suwon, Gangneung</i>.</p>
 
     <!-- About Seoul -->
-    <div>
+    <div id="Seoul">
         <div class="a">
             <h3
                 style="background: rgba(255, 255, 255, 0.822); padding: 10px 20px; border-radius: 6px; max-width: 130px; margin-left: 60px; box-sizing: border-box;">
@@ -121,7 +157,7 @@
     </div>
 
     <!-- About Busan -->
-    <div>
+    <div id="Busan">
         <div class="a">
             <h3
                 style="background: rgba(255, 255, 255, 0.822); padding: 10px 20px; border-radius: 6px; max-width: 130px; margin-left: 60px; box-sizing: border-box;">
@@ -129,7 +165,12 @@
         </div>
         <p
             style=" padding-left: 40px; margin: 0;background: rgba(255, 255, 255, 0.822); padding: 10px 20px; border-radius: 6px; max-width: 900px; margin-left: 60px; box-sizing: border-box;">
-            Busan, South Korea’s lively port city, is famous for its stunning beaches, fresh seafood, and cultural charm. Travelers can relax on Haeundae and Gwangalli Beach, wander through the colorful streets of Gamcheon Culture Village, and sample local delicacies at Jagalchi Fish Market. The city also offers scenic hikes on Geumjeongsan Mountain and serene temples like Beomeosa, balancing nature with urban energy. With its coastal beauty, vibrant festivals, and laid-back atmosphere, Busan is a perfect getaway that complements the fast-paced life of Seoul.
+            Busan, South Korea’s lively port city, is famous for its stunning beaches, fresh seafood, and cultural
+            charm. Travelers can relax on Haeundae and Gwangalli Beach, wander through the colorful streets of Gamcheon
+            Culture Village, and sample local delicacies at Jagalchi Fish Market. The city also offers scenic hikes on
+            Geumjeongsan Mountain and serene temples like Beomeosa, balancing nature with urban energy. With its coastal
+            beauty, vibrant festivals, and laid-back atmosphere, Busan is a perfect getaway that complements the
+            fast-paced life of Seoul.
         </p>
         <h4
             style="padding-left: 80px; margin-top: 10px; margin-bottom: 0;background: rgba(255, 255, 255, 0.822); padding: 10px 20px; border-radius: 6px; max-width: 390px; margin-left: 60px; box-sizing: border-box;">
@@ -141,7 +182,7 @@
     </div>
 
     <!-- About Jeju City -->
-    <div>
+    <div id="Jeju City">
         <div class="a">
             <h3
                 style="background: rgba(255, 255, 255, 0.822); padding: 10px 20px; border-radius: 6px; max-width: 150px; margin-left: 60px; box-sizing: border-box;">
@@ -149,19 +190,26 @@
         </div>
         <p
             style=" padding-left: 40px; margin: 0;background: rgba(255, 255, 255, 0.822); padding: 10px 20px; border-radius: 6px; max-width: 900px; margin-left: 60px; box-sizing: border-box;">
-            Jeju City, the gateway to South Korea’s beloved Jeju Island, is a destination known for its natural beauty and relaxed island lifestyle. Visitors can explore the volcanic wonders of Hallasan Mountain, walk through dramatic lava tubes, or admire coastal landscapes at Seongsan Ilchulbong (Sunrise Peak). The city offers lively markets like Dongmun Traditional Market, fresh seafood, and unique cultural sites such as Jeju’s traditional villages and stone statues called dol hareubang. With its mix of adventure, relaxation, and local charm, Jeju City is a must-visit stop for travelers seeking a different side of Korea beyond the mainland.
+            Jeju City, the gateway to South Korea’s beloved Jeju Island, is a destination known for its natural beauty
+            and relaxed island lifestyle. Visitors can explore the volcanic wonders of Hallasan Mountain, walk through
+            dramatic lava tubes, or admire coastal landscapes at Seongsan Ilchulbong (Sunrise Peak). The city offers
+            lively markets like Dongmun Traditional Market, fresh seafood, and unique cultural sites such as Jeju’s
+            traditional villages and stone statues called dol hareubang. With its mix of adventure, relaxation, and
+            local charm, Jeju City is a must-visit stop for travelers seeking a different side of Korea beyond the
+            mainland.
         </p>
         <h4
             style="padding-left: 80px; margin-top: 10px; margin-bottom: 0;background: rgba(255, 255, 255, 0.822); padding: 10px 20px; border-radius: 6px; max-width: 410px; margin-left: 60px; box-sizing: border-box;">
             Click Image to Learn More About Jeju City!</h4>
-        <a href="https://southkoreahallyu.com/things-to-do-jeju-island-south-korea/" style="background-color:transparent;" target="_blank">
+        <a href="https://southkoreahallyu.com/things-to-do-jeju-island-south-korea/"
+            style="background-color:transparent;" target="_blank">
             <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res70/341000/341448-Jeju-City.jpg"
                 alt="Jeju City" width="340" height="190" style="margin-left:60px;border:6px solid white;">
         </a>
     </div>
 
     <!-- About Incheon -->
-    <div>
+    <div id="Incheon">
         <div class="a">
             <h3
                 style="background: rgba(255, 255, 255, 0.822); padding: 10px 20px; border-radius: 6px; max-width: 150px; margin-left: 60px; box-sizing: border-box;">
@@ -169,20 +217,27 @@
         </div>
         <p
             style=" padding-left: 40px; margin: 0;background: rgba(255, 255, 255, 0.822); padding: 10px 20px; border-radius: 6px; max-width: 900px; margin-left: 60px; box-sizing: border-box;">
-            Incheon, located just west of Seoul, is a dynamic city known as both South Korea’s international gateway and a destination in its own right. Visitors can stroll through Chinatown, the only official one in the country, explore the futuristic skyline of Songdo International Business District, and relax at Wolmido Island with its seaside park and amusement rides. History lovers can visit Incheon Landing Operation Memorial Hall, while nature enthusiasts will enjoy the tidal flats and coastal views at Incheon Grand Park. With its blend of culture, modernity, and coastal charm, Incheon offers travelers a refreshing stop just outside the capital.
+            Incheon, located just west of Seoul, is a dynamic city known as both South Korea’s international gateway and
+            a destination in its own right. Visitors can stroll through Chinatown, the only official one in the country,
+            explore the futuristic skyline of Songdo International Business District, and relax at Wolmido Island with
+            its seaside park and amusement rides. History lovers can visit Incheon Landing Operation Memorial Hall,
+            while nature enthusiasts will enjoy the tidal flats and coastal views at Incheon Grand Park. With its blend
+            of culture, modernity, and coastal charm, Incheon offers travelers a refreshing stop just outside the
+            capital.
 
         </p>
         <h4
             style="padding-left: 80px; margin-top: 10px; margin-bottom: 0;background: rgba(255, 255, 255, 0.822); padding: 10px 20px; border-radius: 6px; max-width: 410px; margin-left: 60px; box-sizing: border-box;">
             Click Image to Learn More About Incheon!</h4>
-        <a href="https://www.wada-ama.org/sites/default/files/2023-04/Incheon%20Tour%20guide.pdf" style="background-color:transparent;" target="_blank">
+        <a href="https://www.wada-ama.org/sites/default/files/2023-04/Incheon%20Tour%20guide.pdf"
+            style="background-color:transparent;" target="_blank">
             <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res70/248000/248958-Incheon-And-Vicinity.jpg"
                 alt="Incheon" width="340" height="190" style="margin-left:60px;border:6px solid white;">
         </a>
     </div>
 
     <!-- About Gyeongju -->
-    <div>
+    <div id="Gyeongju">
         <div class="a">
             <h3
                 style="background: rgba(255, 255, 255, 0.822); padding: 10px 20px; border-radius: 6px; max-width: 160px; margin-left: 60px; box-sizing: border-box;">
@@ -190,19 +245,25 @@
         </div>
         <p
             style=" padding-left: 40px; margin: 0;background: rgba(255, 255, 255, 0.822); padding: 10px 20px; border-radius: 6px; max-width: 900px; margin-left: 60px; box-sizing: border-box;">
-            Gyeongju, often called the “museum without walls”, is a treasure trove of Korea’s ancient history and culture. Once the capital of the Silla Kingdom, the city is filled with UNESCO World Heritage Sites, including Bulguksa Temple and the stunning Seokguram Grotto. Visitors can wander through Tumuli Park with its royal burial mounds, explore the ruins of Donggung Palace and Wolji Pond, and enjoy the vibrant traditions preserved in the city. With its temples, relics, and serene landscapes, Gyeongju offers travelers a fascinating journey into Korea’s past.
+            Gyeongju, often called the “museum without walls”, is a treasure trove of Korea’s ancient history and
+            culture. Once the capital of the Silla Kingdom, the city is filled with UNESCO World Heritage Sites,
+            including Bulguksa Temple and the stunning Seokguram Grotto. Visitors can wander through Tumuli Park with
+            its royal burial mounds, explore the ruins of Donggung Palace and Wolji Pond, and enjoy the vibrant
+            traditions preserved in the city. With its temples, relics, and serene landscapes, Gyeongju offers travelers
+            a fascinating journey into Korea’s past.
         </p>
         <h4
             style="padding-left: 80px; margin-top: 10px; margin-bottom: 0;background: rgba(255, 255, 255, 0.822); padding: 10px 20px; border-radius: 6px; max-width: 430px; margin-left: 60px; box-sizing: border-box;">
             Click Image to Learn More About Gyeongju!</h4>
-        <a href="https://thesoulofseoul.net/gyeongju-korea-guide/" style="background-color:transparent;" target="_blank">
+        <a href="https://thesoulofseoul.net/gyeongju-korea-guide/" style="background-color:transparent;"
+            target="_blank">
             <img src="https://worldheritagesites.net/wp-content/uploads/2023/08/Woljeong-Bridge-in-Gyeongju.jpg"
                 alt="Gyeongju" width="320" height="200" style="margin-left:60px;border:6px solid white;">
         </a>
     </div>
 
     <!-- About Suwon -->
-    <div>
+    <div id="Suwon">
         <div class="a">
             <h3
                 style="background: rgba(255, 255, 255, 0.822); padding: 10px 20px; border-radius: 6px; max-width: 135px; margin-left: 60px; box-sizing: border-box;">
@@ -210,19 +271,24 @@
         </div>
         <p
             style=" padding-left: 40px; margin: 0;background: rgba(255, 255, 255, 0.822); padding: 10px 20px; border-radius: 6px; max-width: 900px; margin-left: 60px; box-sizing: border-box;">
-            Suwon, just south of Seoul, is best known for its impressive Hwaseong Fortress, a UNESCO World Heritage Site that showcases the city’s rich Joseon Dynasty history. Visitors can walk along the fortress walls for panoramic views, explore traditional architecture at Hwaseong Haenggung Palace, and enjoy cultural performances that bring the past to life. Beyond its heritage, Suwon is also famous for its delicious galbi (marinated beef ribs) and lively local markets. Blending history, culture, and cuisine, Suwon makes for a rewarding day trip or short getaway from the capital.
+            Suwon, just south of Seoul, is best known for its impressive Hwaseong Fortress, a UNESCO World Heritage Site
+            that showcases the city’s rich Joseon Dynasty history. Visitors can walk along the fortress walls for
+            panoramic views, explore traditional architecture at Hwaseong Haenggung Palace, and enjoy cultural
+            performances that bring the past to life. Beyond its heritage, Suwon is also famous for its delicious galbi
+            (marinated beef ribs) and lively local markets. Blending history, culture, and cuisine, Suwon makes for a
+            rewarding day trip or short getaway from the capital.
         </p>
         <h4
             style="padding-left: 80px; margin-top: 10px; margin-bottom: 0;background: rgba(255, 255, 255, 0.822); padding: 10px 20px; border-radius: 6px; max-width: 400px; margin-left: 60px; box-sizing: border-box;">
             Click Image to Learn More About Suwon!</h4>
         <a href="https://www.expedia.com/Suwon.dx6129105" style="background-color:transparent;" target="_blank">
-            <img src="https://whc.unesco.org/uploads/thumbs/site_0817_0001-1200-630-20090911144015.jpg"
-                alt="Suwon" width="320" height="200" style="margin-left:60px;border:6px solid white;">
+            <img src="https://whc.unesco.org/uploads/thumbs/site_0817_0001-1200-630-20090911144015.jpg" alt="Suwon"
+                width="320" height="200" style="margin-left:60px;border:6px solid white;">
         </a>
     </div>
 
     <!-- About Gangneung -->
-    <div>
+    <div id="Gangneung">
         <div class="a">
             <h3
                 style="background: rgba(255, 255, 255, 0.822); padding: 10px 20px; border-radius: 6px; max-width: 180px; margin-left: 60px; box-sizing: border-box;">
@@ -230,7 +296,13 @@
         </div>
         <p
             style=" padding-left: 40px; margin: 0;background: rgba(255, 255, 255, 0.822); padding: 10px 20px; border-radius: 6px; max-width: 900px; margin-left: 60px; box-sizing: border-box;">
-            Gangneung, set along South Korea’s scenic east coast, is a city where mountains meet the sea. Known for its beautiful Gyeongpo Beach and fresh coffee culture, it’s a favorite spot for both relaxation and seaside activities. Visitors can explore the tranquil Ojukheon House, birthplace of Confucian scholar Yulgok, or wander through Seongyojang House, a well-preserved noble residence. The nearby mountains and lakes offer year-round outdoor experiences, from hiking to winter sports. Famous for hosting events during the 2018 Winter Olympics, Gangneung blends culture, history, and natural beauty, making it a versatile destination for travelers.
+            Gangneung, set along South Korea’s scenic east coast, is a city where mountains meet the sea. Known for its
+            beautiful Gyeongpo Beach and fresh coffee culture, it’s a favorite spot for both relaxation and seaside
+            activities. Visitors can explore the tranquil Ojukheon House, birthplace of Confucian scholar Yulgok, or
+            wander through Seongyojang House, a well-preserved noble residence. The nearby mountains and lakes offer
+            year-round outdoor experiences, from hiking to winter sports. Famous for hosting events during the 2018
+            Winter Olympics, Gangneung blends culture, history, and natural beauty, making it a versatile destination
+            for travelers.
         </p>
         <h4
             style="padding-left: 80px; margin-top: 10px; margin-bottom: 0;background: rgba(255, 255, 255, 0.822); padding: 10px 20px; border-radius: 6px; max-width: 440px; margin-left: 60px; box-sizing: border-box;">
@@ -241,12 +313,12 @@
         </a>
     </div>
 
-    
+
 
     <p><br></p>
     <p><br></p>
     <div class="center-links">
-        <a href="https://www.travelchinaguide.com/cityguides/?srsltid=AfmBOors3P8laelPjCtc4XGBDK8uFhAcL5rwpVKNlmKaj7fI34_CpHin"
+        <a href="https://www.gone2korea.com/korean-cities-and-provinces-guide/"
             style="font-size:40px; color:black; font-family:'Dongle',garamond;background: rgba(255, 255, 255, 0.822); padding: 10px 20px; border-radius: 6px; max-width: 440px; box-sizing:border-box;text-align: center;"
             target="_blank">
             <b>Click to Learn About More Cities!</b></a>
@@ -254,6 +326,14 @@
     <br>
 
     <div class="center-links">
+        <a href="#top"
+            style="font-size:25px; color:black; font-family:'Dongle',garamond;background: rgba(255, 255, 255, 0.822); padding: 10px 20px; border-radius: 6px; max-width: 440px; box-sizing:border-box;text-align: center;">
+            <b>Go to Top</b></a>
+    </div>
+
+    <br>
+
+    <div class="center-links" id="bottom">
         <a href="main.html"
             style="font-size:25px; color:black; font-family:'Dongle',garamond;background: rgba(255, 255, 255, 0.822); padding: 10px 20px; border-radius: 6px; max-width: 440px; box-sizing:border-box;text-align: center;">
             <b>Return to Home Page</b></a>
