@@ -4,6 +4,9 @@
 <head>
     <title>Japan</title>
     <link rel="shortcut icon" href="japan2rbg.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dongle&family=Hachi+Maru+Pop&family=Hina+Mincho&family=Kalam:wght@300;400;700&family=Kings&family=Kosugi&family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Nanum+Myeongjo&family=Playwrite+VN:wght@100..400&family=Qwigley&family=Srisakdi:wght@400;700&family=Viaoda+Libre&display=swap" rel="stylesheet">
 
     <!--CSS (Cascading Style Sheets)-->
     <style>
@@ -23,23 +26,30 @@
         }
 
         h1 {
-            color: rgb(4, 4, 4)
+            color: rgb(4, 4, 4);
+            font-family:'Hachi Maru Pop',courier new;
         }
 
         p {
-            color: rgb(21, 21, 21)
+            color: rgb(21, 21, 21);
+            font-family:'Kosugi',garamond;
+            
         }
 
         h2 {
-            color: rgb(15, 15, 15)
+            color: rgb(15, 15, 15);
+            font-family:'Hachi Maru Pop',courier new;
         }
 
         h3 {
-            color: rgb(6, 6, 6)
+            color: rgb(6, 6, 6);
+            font-family:'Hachi Maru Pop',courier new;
         }
 
         h4 {
-            color: rgb(8, 8, 8)
+            color: rgb(8, 8, 8);
+            font-family:'Hachi Maru Pop',courier new;
+
         }
 
         .center-links {
@@ -54,6 +64,7 @@
             text-align: center;
             display: inline-block;
             text-decoration: none;
+            font-family:'Hachi Maru Pop',courier new;
 
         }
 
@@ -71,18 +82,24 @@
             display: flex;
             justify-content: center;
             gap: 6px;
-            background: rgba(208, 201, 201, 0.822);
+            background: rgba(169, 167, 167, 0.87);
             border-radius: 3px;
         }
 
         .city-nav a {
-            background-color: white;
+            background: rgba(255, 255, 255, 0.822);
             color: black;
             padding: 8px 14px;
             border-radius: 3px;
             text-decoration: none;
             transition: background-color 0.3s;
-            font-size: 20px;
+            font-size: 15px;
+        }
+
+        iframe {
+            margin:0px auto;
+            display: block;
+            border:6px solid black;
         }
     </style>
 
@@ -90,7 +107,7 @@
 
 <body>
 
-    <h1 style="text-align:center;font-size: 45px;font-family:palatino linotype; ">
+    <h1 style="text-align:center;font-size: 45px;">
         <b id="top">Japan</b>
     </h1>
 
@@ -108,7 +125,7 @@
 
 
     <h2
-        style="font-family:courier new;background: rgba(255, 255, 255, 0.822);padding: 2px 6px;border-radius: 3px;display: inline-block;">
+        style="background: rgba(255, 255, 255, 0.822);padding: 2px 6px;border-radius: 3px;display: inline-block;">
         <b>Popular Cities</b></h2>
 
     <p style="font-family:garamond; ">Popular Cities in Japan include <i>Tokyo, Kyoto, Osaka, Hiroshima, and
@@ -118,32 +135,31 @@
     <div id="Tokyo">
         <div class="a">
             <h3
-                style="font-family:courier new;background: rgba(255, 255, 255, 0.822);padding: 2px 6px;border-radius: 3px;display: inline-block;">
+                style="background: rgba(255, 255, 255, 0.822);padding: 2px 6px;border-radius: 3px;display: inline-block;">
                 Tokyo</h3>
         </div>
-        <p style="padding-left: 60px; font-family:garamond; ">
+        <p style="background: rgba(255, 255, 255, 0.822);padding: 2px 6px;border-radius: 3px;display: inline-block;margin-left:80px;max-width: 900px;" >
             Tokyo is a dynamic blend of tradition and modernity, offering something for every type of traveler. From the
             serene temples of Asakusa and the bustling streets of Shibuya to the tranquil gardens of the Imperial
             Palace, there's no shortage of exploration. Don't miss the vibrant shopping districts like Harajuku, the
             high-tech wonders of Akihabara, or the peaceful vibe of Meiji Shrine. Whether you're into cutting-edge
             technology, historic sites, or incredible food, Tokyo has it all, making it an unforgettable destination.
         </p>
-        <h4 style="padding-left:80px;">Click Image to Learn More About Tokyo!</h4>
+        <h4 style="background: rgba(255, 255, 255, 0.822);padding: 2px 6px;border-radius: 3px;margin-left:80px;display: block;max-width: fit-content;">Click Image to Learn More About Tokyo!</h4>
         <a href="https://www.gotokyo.org/en/index.html" style="background-color:transparent;" target="_blank">
             <img src="https://hips.hearstapps.com/hmg-prod/images/high-angle-view-of-tokyo-skyline-at-dusk-japan-royalty-free-image-1664309926.jpg"
-                alt="Tokyo" width="340" height="170" style="padding-left:60px;">
+                alt="Tokyo" width="340" height="170" style="margin-left:60px;border: 6px solid black;">
         </a>
     </div>
-
 
     <!--About Kyoto-->
     <div id="Kyoto">
         <div class="a">
             <h3
-                style="font-family:courier new;background: rgba(255, 255, 255, 0.822);padding: 2px 6px;border-radius: 3px;display: inline-block;">
+                style="background: rgba(255, 255, 255, 0.822);padding: 2px 6px;border-radius: 3px;display: inline-block;max-width: fit-content;">
                 Kyoto</h3>
         </div>
-        <p style="padding-left: 60px; font-family:garamond; ">
+        <p style="background: rgba(255, 255, 255, 0.822);padding: 2px 6px;border-radius: 3px;display: inline-block;margin-left:80px;max-width: 900px;">
             Kyoto is a stunning blend of ancient tradition and natural beauty, making it the perfect place to step back
             in time. Known for its beautiful temples, traditional tea houses, and serene gardens, Kyoto offers a
             peaceful contrast to the hustle of Japan's larger cities. Explore the iconic Fushimi Inari Shrine with its
@@ -151,12 +167,12 @@
             districts, like Gion, where you might catch a glimpse of a geisha, Kyoto provides a rich cultural experience
             that will leave you captivated.
         </p>
-        <h4 style="padding-left:80px;">Click Image to Learn More About Kyoto!</h4>
+        <h4 style="background: rgba(255, 255, 255, 0.822);padding: 2px 6px;border-radius: 3px;margin-left:80px;display: block;max-width:fit-content">Click Image to Learn More About Kyoto!</h4>
 
         <a href="https://www.japan.travel/en/destinations/kansai/kyoto/" style="background-color:transparent;"
             target="_blank">
             <img src="https://www.hilton.com/im/en/NoHotel/18125490/shutterstock-403209976.jpg?impolicy=crop&cw=4803&ch=3202&gravity=NorthWest&xposition=98&yposition=0&rw=1280&rh=856"
-                alt="Kyoto" width="330" height="200" style="padding-left:60px;">
+                alt="Kyoto" width="330" height="200" style="margin-left:60px;border: 6px solid black;">
         </a>
     </div>
 
@@ -164,10 +180,10 @@
     <div id="Osaka">
         <div class="a">
             <h3
-                style="font-family:courier new;background: rgba(255, 255, 255, 0.822);padding: 2px 6px;border-radius: 3px;display: inline-block;">
+                style="background: rgba(255, 255, 255, 0.822);padding: 2px 6px;border-radius: 3px;display: inline-block;max-width: fit-content;">
                 Osaka</h3>
         </div>
-        <p style="padding-left: 60px; font-family:garamond; ">
+        <p style="background: rgba(255, 255, 255, 0.822);padding: 2px 6px;border-radius: 3px;display: inline-block;margin-left:80px; max-width: 900px;">
             Osaka is a vibrant, fun-filled city known for its lively atmosphere and mouth-watering street food. Whether
             you're strolling through Dotonbori with its neon lights and bustling nightlife or visiting Osaka Castle with
             its stunning grounds, there's always something exciting to do. The city is a haven for food lovers, offering
@@ -175,12 +191,12 @@
             mix of modern attractions and historic sites, Osaka delivers
             an unforgettable experience full of energy and warmth.
         </p>
-        <h4 style="padding-left:80px;">Click Image to Learn More About Osaka!</h4>
+        <h4 style="background: rgba(255, 255, 255, 0.822);padding: 2px 6px;border-radius: 3px;display: inline-block;margin-left:80px;max-width: fit-content;display: block;">Click Image to Learn More About Osaka!</h4>
 
         <a href="https://www.japan.travel/en/destinations/kansai/osaka/" style="background-color:transparent;"
             target="_blank">
             <img src="https://fcracer.com/wp-content/uploads/GFXR6182-6183-focus-stack-JPEG-blog.jpg" alt="Osaka"
-                width="330" height="200" style="padding-left:60px;">
+                width="330" height="200" style="margin-left:60px;border: 6px solid black;">
         </a>
     </div>
 
@@ -188,10 +204,10 @@
     <div id="Hiroshima">
         <div class="a">
             <h3
-                style="font-family:courier new;background: rgba(255, 255, 255, 0.822);padding: 2px 6px;border-radius: 3px;display: inline-block;">
+                style="background: rgba(255, 255, 255, 0.822);padding: 2px 6px;border-radius: 3px;display: inline-block;">
                 Hiroshima</h3>
         </div>
-        <p style="padding-left:60px; font-family:garamond; ">
+        <p style="background: rgba(255, 255, 255, 0.822);padding: 2px 6px;border-radius: 3px;display: inline-block;margin-left:80px;max-width: 900px;">
             Hiroshima is a city of resilience and peace, offering visitors a powerful and moving experience. Known for
             the Hiroshima Peace Memorial Park, which commemorates the victims
             of the atomic bombing, the city provides a deeply reflective atmosphere. While the Peace Memorial and Atomic
@@ -200,12 +216,12 @@
             short ferry ride away is Miyajima Island, home to the iconic floating torii gate of Itsukushima Shrine,
             making Hiroshima a perfect blend of history, culture, and natural beauty.
         </p>
-        <h4 style="padding-left:80px;">Click Image to Learn More About Hiroshima!</h4>
+        <h4 style="background: rgba(255, 255, 255, 0.822);padding: 2px 6px;border-radius: 3px;display:block;margin-left:80px;max-width: fit-content;">Click Image to Learn More About Hiroshima!</h4>
 
         <a href="https://www.japan.travel/en/destinations/chugoku/hiroshima/" style="background-color:transparent;"
             target="_blank">
             <img src="https://japanspecialist.com/documents/d/japanspecialist/thumbnail-1-hiroshima-day-trip"
-                alt="hiroshima" width="350" height="210" style="padding-left:60px;">
+                alt="hiroshima" width="350" height="210" style="margin-left:60px;border: 6px solid black;">
         </a>
     </div>
 
@@ -213,10 +229,10 @@
     <div id="Sapporo">
         <div class="a">
             <h3
-                style="font-family:courier new;background: rgba(255, 255, 255, 0.822);padding: 2px 6px;border-radius: 3px;display: inline-block;">
+                style="background: rgba(255, 255, 255, 0.822);padding: 2px 6px;border-radius: 3px;display: inline-block;">
                 Sapporo</h3>
         </div>
-        <p style="padding-left:60px; font-family:garamond; ">
+        <p style="background: rgba(255, 255, 255, 0.822);padding: 2px 6px;border-radius: 3px;display: inline-block;margin-left:80px;max-width: 900px;">
             Sapporo, located in Hokkaido, is a refreshing mix of natural beauty and urban charm. Famous for its snow
             festivals, Sapporo transforms into a winter wonderland every February, with stunning ice sculptures and
             lively events. Beyond the snow, the city offers great hiking in summer, beautiful parks, and the iconic
@@ -224,33 +240,41 @@
             ramen, especially the famous miso-flavored variety. Whether you're exploring hot springs, skiing, or
             enjoying the seasonal festivals, Sapporo offers a unique and unforgettable experience year-round.
         </p>
-        <h4 style="padding-left:80px;">Click Image to Learn More About Sapporo!</h4>
+        <h4 style="background: rgba(255, 255, 255, 0.822);padding: 2px 6px;border-radius: 3px;display: block;margin-left:80px;max-width: fit-content;">Click Image to Learn More About Sapporo!</h4>
 
         <a href="https://www.japan.travel/en/destinations/hokkaido/hokkaido/sapporo-and-around/"
             style="background-color:transparent;" target="_blank">
             <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res70/499000/499996-sapporo-and-vicinity.jpg"
-                alt="Sapporo" width="350" height="200" style="padding-left:60px;">
+                alt="Sapporo" width="350" height="200" style="margin-left:60px;border: 6px solid black;">
         </a>
     </div>
 
     <p><br></p>
     <p><br></p>
+
+     <iframe width="560" height="315" src="https://www.youtube.com/embed/0OJHgQhNX3g?si=-yiSFCLb6r9ubyxq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen ></iframe>
+    
+
+    <br>
+
     <div class="center-links">
         <a href="https://japanandmore.com/destinations/"
-            style="font-size:25px; color:black; font-family:garamond;border-radius: 3px;" target="_blank">
+            style="font-size:25px; color:black; border-radius: 3px;" target="_blank">
             <b>Click to Learn About More Cities!</b></a>
     </div>
     <br>
 
+   
+
     <div class="center-links">
-        <a href="#top" style="font-size:15px; color:black; font-family:garamond;border-radius: 3px;">
+        <a href="#top" style="font-size:15px; color:black; border-radius: 3px;">
             <b>Go to Top</b></a>
     </div>
 
     <br>
 
     <div class="center-links" id="bottom">
-        <a href="index.html" style="font-size:15px; color:black; font-family:garamond;border-radius: 3px;">
+        <a href="index.html" style="font-size:15px; color:black; border-radius: 3px;">
             <b>Return to Home Page</b></a>
     </div>
 </body>
