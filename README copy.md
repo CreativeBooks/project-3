@@ -1,8 +1,7 @@
 # project-3
 Athena Project #1
 
-
-Travel to Asia 
+Travel to Asia
 
 This is a website that allows the user to explore 6 major countries in Asia. Each page about said country shows the user muliple cities in the country that are popular or worth visiting. There is a matching description who's purpose is to inform the user about the cities features in a very concise way, if they wish to learn more they can click on the image below the city which will take to them to a travel blog or guide which will give them more information about the city. At the end of the page there is a video as well as a link that both allow the user to dive into the country more. The video gives the user a first hand account of the experiences in that city whereas the link will allow the user to explore more cities within that country so that they can expand their itinerary.
 
